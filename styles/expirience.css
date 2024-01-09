@@ -1,0 +1,57 @@
+@keyframes line_expirience {
+    to {
+        width: 16em;
+    }
+    
+}
+
+.animation_line_expirience {
+    animation: line_expirience 0.5s ease-out forwards;
+}
+
+@keyframes slideFromLeftToRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-from-left {
+    animation: slideFromLeftToRight 1s ease-out 1s forwards;
+  }
+  
+
+  @keyframes slideFromRightToLeft {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-from-right {
+    animation: slideFromRightToLeft 1s ease-out 1s forwards;
+  }
+
+
+@keyframes scaleUp {
+from {
+    transform: scale(0);
+}
+to {
+    transform: scale(1);
+}
+}
+
+.animate-scaleUp {
+animation: scaleUp 0.5s ease-in-out 0.5s forwards;
+}
+  
+  

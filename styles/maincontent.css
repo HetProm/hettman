@@ -1,0 +1,40 @@
+@keyframes lineIn {
+    from {
+        width: 0px;
+    }
+    to {
+        width: calc(100% + 10px);
+    }
+}
+
+@keyframes lineOut {
+    from {
+        width: calc(100% + 10px);
+    }
+    to {
+        width: 0;
+    }
+}
+
+.animate-lineInOut {
+    animation: lineIn 0.5s ease-out var(--main-delay) forwards,
+               lineOut 0.5s ease-out calc(var(--main-delay) + 1s) forwards;
+}
+
+@keyframes iconslideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+        
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-slideUp {
+    animation: iconslideUp 0.5s ease-out calc(var(--main-delay) + 0.5s) forwards;
+}
+
+
