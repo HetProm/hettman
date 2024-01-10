@@ -42,7 +42,7 @@ const NavBar: React.FC = () => {
             <div key={index} className=" flex flex-col items-center justify-center fadeIn"  style={{ animationDelay: `${index * 0.3}s` }}>
                 
                 <li className={`${natosans.className}  text-white text-[1.5rem] md:text-[1.15rem] relative z-[2]`} >
-                    <a href={`#${element.id}`}>{element.title}</a>
+                    <a href={`#${element.id}`} onClick={toggleMenu}>{element.title}</a>
                     
                 </li>
                 <CircleiconMenu className=" absolute z-[1]" delay={index * 0.3} />
