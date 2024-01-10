@@ -38,7 +38,7 @@ const MainContent: React.FC = () => {
                     </div>
                     
                 </div>
-                <div className=" w-full h-[8rem] md:h-1/2  flex items-center justify-center space-x-8 md:items-start pt-16 md:pt-10 flex-wrap">
+                <div className=" w-full h-[8rem] md:h-1/2  flex items-center justify-center space-x-8 md:items-start pt-20 md:pt-10 flex-wrap">
                     <div className='flex flex-col items-center'>
                         <div className='w-max overflow-hidden'>
                             <Image src='/icons/html_icon.png' alt='html icon' width={146} height={179} className='h-[3em] opacity-0 w-auto animate-slideUp'></Image>
