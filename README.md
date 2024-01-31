@@ -1,37 +1,51 @@
-# Hettman - Portfolio
 
-![Hettman Logo](link_do_logo.png)
 
-> Witaj na moim portfolio! Jestem Krystian Hettman, fullstack developer z pasją do rozwiązywania problemów.
 
-## Spis treści
+# Hettman Portfolio
 
-- [O mnie](#o-mnie)
-- [Projekty](#projekty)
-- [Doświadczenie](#doświadczenie)
-- [Rekomendacje](#rekomendacje)
-- [Kontakt](#kontakt)
+Welcome to my portfolio website hosted at [www.hettman.pl](https://www.hettman.pl/). This portfolio showcases recommendations I have received from other companies for my services, descriptions of projects I have worked on, as well as links to them. Additionally, you'll find information about me and my professional experience.
 
-## O mnie
+## Technologies Used
 
-Krótki opis o sobie, Twoich umiejętnościach, pasjach i celem zawodowym.
+This portfolio is built using React.js and TypeScript.
 
-## Projekty
+## Installation
 
-Lista kilku ważnych projektów z krótkim opisem. Możesz również dodać linki do repozytoriów lub wersji online.
+To run this project locally, follow these steps:
 
-## Doświadczenie
+1. Clone the repository:
 
-Opis Twojego doświadczenia zawodowego, edukacji, certyfikatów itp.
+   ```bash
+   git clone https://github.com/HetProm/hettman.git
+   ```
 
-## Rekomendacje
+2. Navigate to the project directory:
 
-Jeśli posiadasz rekomendacje od współpracowników, klientów lub innych osób, tutaj możesz je umieścić.
+   ```bash
+   cd hettman
+   ```
 
-## Kontakt
+3. Install dependencies using npm:
 
-Skontaktuj się ze mną poprzez [e-mail](mailto:krystianhettman@gmail.com) 
+   ```bash
+   npm ci
+   ```
 
----
+4. Run the project locally:
 
-⚙️ Projekt oparty na technologiach: Next.js, React, Tailwind CSS.
+   ```bash
+   npm run dev
+   ```
+
+## Usage
+
+To access the portfolio, simply visit [www.hettman.pl](https://www.hettman.pl/).
+
+## Author
+
+**Krystian Hettman**  
+- Contact: KrystianHettman@gmail.com
+
+## License
+
+This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for details.
