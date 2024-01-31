@@ -23,7 +23,7 @@ const Expirience: React.FC = () => {
 
                 <Expirience_element  
                     title="Worthington"
-                    description="Wigration of company file database to external storage"
+                    description="Migration of company file database to external storage"
                     icon={<CircleStackIcon className='h-8 w-8 text-white'/>}
                     alignRight={true} />
             </div>

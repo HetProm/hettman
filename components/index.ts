@@ -5,6 +5,7 @@ import Textbetween from "./textbetween";
 import Experience from "./experience";
 import Recommendation from "./recomendation";
 import Aboutme from "./aboutme";
+import Githubhref from "./githubhref";
 export {
     NavBar,
     PreloadingScreen,
@@ -12,5 +13,6 @@ export {
     Textbetween,
     Experience,
     Recommendation,
-    Aboutme
+    Aboutme,
+    Githubhref
 }

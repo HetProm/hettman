@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { NavBar, PreloadingScreen , MainContent, Textbetween, Experience, Recommendation, Aboutme} from "../components";
+import { NavBar, PreloadingScreen , MainContent, Textbetween, Experience, Recommendation, Aboutme , Githubhref} from "../components";
 import { Bebas_Neue } from 'next/font/google';
 
 
@@ -21,6 +21,7 @@ export default function Home() {
       <Recommendation />
       <Textbetween title='ABOUT ME' />
       <Aboutme />
+      <Githubhref />
 
 
     </main>
